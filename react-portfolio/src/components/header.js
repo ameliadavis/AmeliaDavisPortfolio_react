@@ -6,7 +6,7 @@ const header = props => {
     return(
         <div>
             <HeaderStyle>
-                <img className = "logo" src = {`${process.env.PUBLIC_URL}/assets/AD_Logo.png`} />
+            
                 <video id="background-video" loop autoPlay>
                     <source src={`${process.env.PUBLIC_URL}/assets/PeonyBackground.mp4`} type="video/mp4" width = "100%"/>
                     <source src={`${process.env.PUBLIC_URL}/assets/PeonyBackground.mp4`} type="video/ogg" />

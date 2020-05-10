@@ -10,10 +10,10 @@ const App = () => {
       return (
         <div className = "App">
           <wrapper>
-              <Nav></Nav>
            <Row>
               <Header></Header>
            </Row>
+           <Nav></Nav>
            <Row>
               <Portfolio></Portfolio>
            </Row>
