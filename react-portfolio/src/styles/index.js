@@ -2,12 +2,13 @@ import styled from "styled-components";
 
 // const aqua = "#1FCDC9";
 const orange = "#FF9E18";
+const fadedAqua ="#E9F7F6"
 
 export const HeaderStyle = styled.div `
 .section {
     position: relative;
     width: 100%;
-    height: 80vh;
+    height: 60vh;
     display: flex; 
     align-items: center;
     justify-content: center;
@@ -15,8 +16,8 @@ export const HeaderStyle = styled.div `
 }
 video {
     position: relative ;
+    margin-left: 1 em 
     bottom: 0;
-    right: 0;
     width: 100%
     z-index: 1;
 }
@@ -55,4 +56,23 @@ export const NavStyle = styled.div `
   padding-top: 1080px;
 }
 
+`
+
+export const FooterStyle = styled.div `
+div {
+    background-color: ${orange};
+    padding: 15px;
+}
+.ImgLinks {
+    height: 50px;
+    margin: 10px;
+}
+form{
+    padding: 10px;
+}
+`
+export const PortfolioContainerStyle = styled.div `
+container {
+    background-color: ${fadedAqua};
+}
 `

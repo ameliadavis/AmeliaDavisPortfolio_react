@@ -1,10 +1,11 @@
 import React from "react";
-import {Row, Col, Form,FormGroup, Label, Input, Button } from "reactstrap";
-// import "./portfolio.css";
+import {FooterStyle} from "../styles";
+import { Row, Col, Form,FormGroup, Label, Input, Button} from "reactstrap"
 
 const footer = props => {
     return(
-        <div>
+        <FooterStyle>
+          <div>
             <Row>
                 <Col md = {7}>
                     <Form>
@@ -24,13 +25,15 @@ const footer = props => {
                     </Form>
                 </Col>
                 <Col md ={5}>
-                    <img className = "Porfolio" src = {`${process.env.PUBLIC_URL}/assets/instagram@4x.png`} />
-                    <img className = "Porfolio" src = {`${process.env.PUBLIC_URL}/assets/portfolio@4x.png`} />
-                    <img className = "Porfolio" src = {`${process.env.PUBLIC_URL}/assets/Mobile@4x.png`} />
-                    <img className = "Porfolio" src = {`${process.env.PUBLIC_URL}/assets/Email@4x.png`} />
+                    <img className = "ImgLinks" src = {`${process.env.PUBLIC_URL}/assets/Instagram.png`} />
+                    <img className = "ImgLinks" src = {`${process.env.PUBLIC_URL}/assets/Desktop.png`} />
+                    <img className = "ImgLinks" src = {`${process.env.PUBLIC_URL}/assets/Phone.png`} />
+                    <img className = "ImgLinks" src = {`${process.env.PUBLIC_URL}/assets/Email.png`} />
                 </Col>
             </Row>         
-        </div>
+          </div>
+        </FooterStyle>
+   
     )}
 
 export default footer   
