@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
+import { Navbar,NavbarBrand} from "reactstrap"
 
 import {NavStyle} from "../styles";
+import { Link } from "react-router-dom";
 
 const NavBar = (props) => {
   
@@ -8,9 +10,9 @@ const NavBar = (props) => {
     <div>
       <NavStyle>
         <div id="navbar">
-          <a href="#home">Home</a>
-          <a href="#news">News</a>
-          <a href="#contact">Contact</a>
+         <NavbarBrand href="/">
+          <Link to="/"><img src={`${process.env.PUBLIC_URL}/assets/AD_Logo.png`}></img></Link>
+          </NavbarBrand>
         </div>
       </NavStyle>
     

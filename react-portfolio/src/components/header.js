@@ -6,11 +6,11 @@ const header = props => {
     return(
         <div>
             <HeaderStyle>
-        
-                <video id="background-video" loop autoPlay width="98%" height="98%" >
-                    <source src={`${process.env.PUBLIC_URL}/assets/PeonyBackground.mp4`} type="video/mp4" width = "100%"/>
+                <video loop autoplay id="background-video" width="98%" height="98%" >
+                    <source src={`${process.env.PUBLIC_URL}/assets/PeonyBackground.mp4`} type="video/mp4"/>
                     Your browser does not support the video tag.
-                </video>
+                </video> 
+                 {/* <video id="background-video" loop autoPlay width="98%" height="98%" src={`${process.env.PUBLIC_URL}/assets/PeonyBackground.mp4`} type="video/mp4" /> */}
             </HeaderStyle>                
         </div>
     )}
