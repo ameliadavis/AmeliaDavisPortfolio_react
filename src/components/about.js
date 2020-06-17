@@ -1,7 +1,6 @@
 import React from "react"
 import {Row, Col, } from "reactstrap";
 import {AboutMe} from "../styles/index.js";
-import {Link} from "react-router-dom";
 
 
 const About = () => {
@@ -22,7 +21,6 @@ const About = () => {
                             I also believe it is important to have passions outside of the office and my hobbies inform my work. 
                             From baking incredible Gingerbread houses to floral design for family and friends I am 
                             all about trying everything at least once. Jill of all trades and master of some.</p>
-                            <button><Link to= "/Contact"></Link>Contact Me</button>
                     </Col>
                 </Row>
             </div>

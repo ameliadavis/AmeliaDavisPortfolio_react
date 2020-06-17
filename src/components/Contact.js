@@ -1,7 +1,7 @@
 import React from "react";
 import {ContactStyle} from '../styles';
 import Navbar from "./navbar"
-import { Container, Row, Col, Form,FormGroup, Input, Button} from "reactstrap";
+import { Container, Form,FormGroup, Input, Button} from "reactstrap";
 
  const Contact  = (props) => {
 
