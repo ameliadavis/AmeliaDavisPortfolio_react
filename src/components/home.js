@@ -1,10 +1,10 @@
-import React, {useState,useEffect}  from 'react';
+import React, {useState}  from 'react';
 import Header from "./header";
 import Portfolio from './portfolio';
 import Footer from "./footer"
 import {Row, Col, Container } from "reactstrap";
 import About from "./about"
-import Project from './projectView';
+
 
 const Projects = [{"key":"1","Img":"Tripoints","title":"TriPoints","subtitle":"See the full cost of your new Mecedes-Benz", "Description": "Bigger Lorem Ipsum", "github":"https://github.com/MustafaKhairalla/project-duck-2.0.git", "deployed":"https://tripoint.herokuapp.com/"},
 {"key":"2","Img":"Foodecipie","title":"Foodecipie","subtitle":" A food and recipie app", "Description": "Bigger Lorem Ipsum", "github":"https://github.com/MustafaKhairalla/Foodecipe", "deployed":"http://mustafakhairalla.github.io/duck-duck-code/"},
@@ -16,12 +16,12 @@ const Projects = [{"key":"1","Img":"Tripoints","title":"TriPoints","subtitle":"S
 
 
 const Home = (props) => {
-      const [state, setState] = useState({
+      const [state,] = useState({
          cardID: "",
          cardTitle: "",
 
         });
-        const {cardID, CardTitle}= state; 
+      
 
  
  return(

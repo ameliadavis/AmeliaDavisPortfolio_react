@@ -1,5 +1,5 @@
-import React, {useState} from "react";
-import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle,Jumbotron, Container, Col, Button,  Modal, ModalHeader, ModalBody, ModalFooter, CardFooter  } from 'reactstrap';
+import React from "react";
+import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button, CardFooter  } from 'reactstrap';
 
 import {CardStyle} from "../styles/index.js";
 
