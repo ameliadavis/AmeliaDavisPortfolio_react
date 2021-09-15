@@ -4,13 +4,9 @@ import Home from "../src/components/home"
 
 
 const App = () => {
-
-
-
       return (
             <div>
              <Home> </Home>
-
         </div>
       );
 }

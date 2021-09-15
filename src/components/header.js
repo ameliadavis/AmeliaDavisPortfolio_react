@@ -6,7 +6,7 @@ const header = props => {
     return(
         <div>
             <HeaderStyle>
-                <video loop autoplay id="background-video" width="98%" height="98%" >
+                <video loop muted autoplay id="background-video" width="98%" height="98%" >
                     <source src={`${process.env.PUBLIC_URL}/assets/PeonyBackground.mp4`} type="video/mp4"/>
                     Your browser does not support the video tag.
                 </video> 
