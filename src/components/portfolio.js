@@ -17,11 +17,10 @@ const Portfolio = props => {
                     <CardBody>
                         <CardTitle><h5>{props.title}</h5></CardTitle>
                         <CardSubtitle>{props.subtitle}</CardSubtitle>
-                        <CardText>{props.description} {props.img}</CardText>
                     </CardBody>
                     <CardFooter>
-                        <Button href = {props.github} target="_Blank">Git Hub</Button>
-                        <Button href= {props.deployed} target="_Blank">View App</Button>
+                        <Button href = {props.github} target="_Blank" style={{margin: '4px'}} >Git Hub</Button>
+                        <Button href= {props.deployed} target="_Blank" style={{margin: '4px'}}>View App</Button>
                     </CardFooter>
                 </Card>
             </CardStyle>
