@@ -6,7 +6,7 @@ import {Row, Col, Container } from "reactstrap";
 import About from "./about"
 
 
-const Projects = [{"key":"1","Img":"Tripoints","title":"TriPoints","subtitle":"See the full cost of your new Mecedes-Benz", "Description": "Bigger Lorem Ipsum", "github":"https://github.com/MustafaKhairalla/project-duck-2.0.git", "deployed":"https://tripoint.herokuapp.com/"},
+const Projects = [{"key":"1","Img":"Tripoints","title":"TriPoints","subtitle":"See the full cost of your Mecedes-Benz", "Description": "Bigger Lorem Ipsum", "github":"https://github.com/MustafaKhairalla/project-duck-2.0.git", "deployed":"https://tripoint.herokuapp.com/"},
 {"key":"2","Img":"Foodecipie","title":"Foodecipie","subtitle":" A food and recipie app", "Description": "Bigger Lorem Ipsum", "github":"https://github.com/MustafaKhairalla/Foodecipe", "deployed":"http://mustafakhairalla.github.io/duck-duck-code/"},
 {"key":"3","Img":"NoteTaker","title":"Note Taker","subtitle":"Track notes to yourself", "Description": "Add, Subtract and save notes with this full stack application. Using express routing for server interaction", "github":"https://github.com/ameliadavis/NoteTaker.git", "deployed":"https://shielded-ridge-84017.herokuapp.com/"},
 {"key":"4","Img":"WeatherDsshboard","title":"Weather App","subtitle":"See and search the weather", "Description": "This application utalized an API for and Axios for querying the API", "github":"https://ameliadavis.github.io/Weather-App.git", "deployed":"https://infinite-tundra-64204.herokuapp.com/"},
